@@ -1,0 +1,70 @@
+section{
+    height: 600px;
+    width: 302px;
+    flex-direction: column-reverse;
+    position: absolute;
+    justify-content: flex-end;
+}
+
+.sideimg{
+    min-height: 30%;
+    min-width: 100%;
+    background: url(./images/image-header-mobile.jpg) no-repeat top cover;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0;
+}
+
+.container{
+    margin-top: 200px;
+}
+
+.box{
+    width: 80%;
+    height: 100%;
+}
+
+.main-text h1{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 36px;
+}
+
+.main-text p{
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.box .stats{
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.box .stats .stat{
+    padding: 0;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.box .stats h2{
+    margin: 0 0 2;
+}
+
+.box .stats p{
+    font-size: 9px;
+}
+
+.attribution {
+    bottom: 3px;
+    font-size: 8px;  
+}
